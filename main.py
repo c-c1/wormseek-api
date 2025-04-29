@@ -17,7 +17,7 @@ CHANNEL_USERNAME = '@u0u0v'
 client = TelegramClient('bot3', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
 # تعيين مفتاح API كمتغير بيئي
-os.environ["TOGETHER_API_KEY"] = "7493e4e0527c3f0b6832785b21685d6ab73672a59c2647dbb6ffb696628bde8b"
+os.environ["TOGETHER_API_KEY"] = "d7e4fc97eedd029e160962237790084bf2fb2df61f03e546c646dfe6a50b1170"
 
 # دالة لإرسال الطلب إلى Blackbox.ai API بشكل غير متزامن
 async def send_to(user_query):
